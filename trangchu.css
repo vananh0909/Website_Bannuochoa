@@ -1,0 +1,147 @@
+
+
+.wrapper{
+    max-width: 1170px;
+    margin:0 auto;
+}
+.sanphams{
+    
+    font-size: 20px;
+    color:#555;
+    padding: 10px 20px;
+    border:1px solid #d3d3d3;
+    
+    margin: 40px 0px;
+    display:inline-block;
+    box-shadow:0px 0px 0px 2px #d9b56f;
+    
+}
+
+
+.lists{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.li{
+    flex-basis: 25%;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+    padding-bottom: 22px;
+}
+
+.list-top{
+    position:relative;
+    overflow:hidden;
+}
+
+.list-item{
+    border:1px solid #d6d1d1;
+}
+.list-item:hover{
+    box-shadow: 0px 0px 0px 2px #d9b56f;
+
+    
+   
+}
+
+.list-img{
+    display:block;
+}
+
+.anh{
+    max-width: 100%;
+    height:auto;
+    display:block;
+}
+
+.list-info{
+    border:1px solid #d6d1d1;
+    background-color: #eeeeee;
+    padding:18px 0px;
+    text-align: center;
+}
+
+.list-info a{
+    display: block;
+    text-decoration: none;
+}
+
+.list-name{
+    color:#111;
+    padding: 3px 0px;
+
+}
+
+.list-money{
+    color:#111;
+    padding: 2px 0px;
+    font-weight: 550;
+}
+
+
+.buy-now{
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    display:block;
+    background-color: #171414;
+    color:#d9b56f;
+    padding:10px 0px;
+    position:absolute;
+    width:100%;
+    bottom:-45px;
+    transition:0.30s ease-in-out;
+    opacity: 0.7;
+}
+
+.li:hover a.buy-now{
+    bottom:0px;
+}
+
+.border1{
+    border-bottom: 1px solid #ebebeb;
+    margin-bottom: 1.5px;
+}
+
+.text5{
+    font-size: 40px;
+    font-weight: 100;
+    color: rgb(73, 73, 73);
+    text-align: center;
+
+}
+
+.video{
+    /* margin-top: 20px; */
+   margin-left: 25px;
+}
+.text6{
+    color:#555;
+    margin-left: 24px;
+    margin-bottom: 5px;
+}
+
+.img11{
+    width: 40px;
+}
+
+.fa-sun, .fa-female, .fa-male{
+    color: #d9b56f;
+}
+
+.fa-youtube{
+    color: red;
+}
+
+ /* Giỏ hàng thêm */
+ .cart-list{
+    margin-top: 24px;
+  
+ }
+
+ .cart-list::after{
+    right: -8;
+ }

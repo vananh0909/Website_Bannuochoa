@@ -1,0 +1,37 @@
+                                             /* CHI TIẾT SP                                     */
+ .chitiet {
+ height: auto;
+ width: 90%;
+ margin: 0 auto;
+
+ }
+
+.hinhanh_sp {
+ float: left;
+  width: 50%;
+}
+.chitet_sp{
+    float:left;
+    width:45%;
+    margin:0 10px;
+    padding-top:20px;
+}
+
+#giohang{
+    padding:10px;
+    margin-left: 100px;
+    font-size: 14px;
+    color: #000;
+    cursor:pointer;
+    text-transform:uppercase;
+}
+
+#giohang:hover{
+    background-color: #d9b56f;
+}
+
+.tensp{
+    text-transform:uppercase;
+    font-size: 35px;
+    margin-right: 5px;
+}

@@ -1,0 +1,172 @@
+.text {
+    margin-top: 0px;
+    margin-left: 90px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 34px;
+    color: #323c3f;
+    letter-spacing: .01em;
+    font-weight: 100;
+
+
+}
+
+
+
+
+
+.home1:hover {
+    color: #d9b56f;
+    text-decoration: none;
+}
+
+
+.the {
+    display: inline;
+    font-family: "Muli", serif;
+    margin-left: 90px;
+    margin-top: 10px;
+
+
+}
+
+.gt {
+    color: dimgray;
+
+}
+
+.home {
+    color: #333;
+    text-decoration: none;
+
+}
+
+.home:hover {
+    color: #d9b56f;
+}
+
+.text1 {
+    width: 70%;
+    text-align: justify;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #333;
+    margin-left: 12%;
+    margin-top: 60px;
+    font-size: 16px;
+
+    line-height: 2;
+}
+
+/* LIÊN HỆ */
+
+
+.trai {
+    width: 100%;
+
+
+
+}
+
+.container {
+    text-align: center;
+}
+
+
+
+
+
+/* @media only screen and (max-width: 768px){
+    .left, .right{
+        float: none;
+        width: 100%;
+    }
+} */
+
+.text2 {
+
+    text-align: justify;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #333;
+    margin-left: 11.7%;
+    margin-top: 60px;
+}
+
+.text3 {
+    width: 70%;
+    text-align: justify;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #333;
+    margin-left: 11.7%;
+    margin-top: 20px;
+    font-size: 16px;
+    padding: 0;
+    line-height: 2;
+    display: block;
+
+
+
+}
+
+.map {
+
+    /* margin-top: 100px;
+    margin-right: 5px; */
+    scroll-margin-bottom: 400px;
+    width: 60%;
+    height: 450px;
+    display: flex;
+    border: 0;
+    padding: 0;
+    display: inline-block;
+
+
+    margin-top: 80px;
+    margin-bottom: 30px;
+
+
+}
+
+.fa {
+    color: #333;
+}
+
+.froms {
+    margin-right: 50%;
+
+    margin-top: 20px;
+    width: 300px;
+    height: 40px;
+
+    border: 1px solid #dbdbdb;
+    border-radius: 4px;
+}
+
+.nhap {
+    margin-right: 50%;
+    margin-top: 20px;
+
+    width: 300px;
+
+
+    border: 1px solid #dbdbdb;
+    border-radius: 4px;
+}
+
+.froms:hover {
+    border: 2px solid #828284;
+
+}
+
+.nhap:hover {
+    border: 2px solid #828284;
+
+}
+
+
+
+
+
+.btn-light:hover {
+    background-color: #d9b56f !important;
+    ;
+    cursor: pointer;
+}
